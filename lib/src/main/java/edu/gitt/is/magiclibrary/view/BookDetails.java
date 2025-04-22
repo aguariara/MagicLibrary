@@ -1,3 +1,4 @@
+// Sigo en la rama main, ahora harÃ© el merge
 package edu.gitt.is.magiclibrary.view;
 
 
@@ -11,8 +12,8 @@ import java.util.logging.Logger;
 import javax.swing.JLabel;
 
 /**
- * <p>Esta clase es la vista para los datos que son exclusivos de los libros (número de páginas e ISBN)</p>
- * @author Isabel Román
+ * <p>Esta clase es la vista para los datos que son exclusivos de los libros (nï¿½mero de pï¿½ginas e ISBN)</p>
+ * @author Isabel Romï¿½n
  *
  */
 public class BookDetails extends TitleDetails {
@@ -39,14 +40,14 @@ public class BookDetails extends TitleDetails {
 
 
 	/**
-	 * <p>Creación de la vista vacía. Se usará para introducir búsquedas o los datos de un libro nuevo</p>
+	 * <p>Creaciï¿½n de la vista vacï¿½a. Se usarï¿½ para introducir bï¿½squedas o los datos de un libro nuevo</p>
 	 */
 	public BookDetails() {
 		super();
 		createPanel();
 	}
 	/**
-	 * <p>Creación de la vista con los datos de un libro. Se usará para presentar los datos de un libro ya existente para su edición o eliminación</p>
+	 * <p>Creaciï¿½n de la vista con los datos de un libro. Se usarï¿½ para presentar los datos de un libro ya existente para su ediciï¿½n o eliminaciï¿½n</p>
 	 * @param book El libro a presentar en la vista
 	 */
 	public BookDetails(Book book) {
@@ -55,7 +56,7 @@ public class BookDetails extends TitleDetails {
 		this.setEntity(book);
 	}
 	/**
-	 * <p>Crea el panel añadiendo los campos específicos de un título de tipo libro, los campos genéricos de título están heredados de la vista de entidades de tipo título</p>
+	 * <p>Crea el panel aï¿½adiendo los campos especï¿½ficos de un tï¿½tulo de tipo libro, los campos genï¿½ricos de tï¿½tulo estï¿½n heredados de la vista de entidades de tipo tï¿½tulo</p>
 	 */
 	private void createPanel() {
 		log.info("Creando el panel de libro");
@@ -87,7 +88,7 @@ public class BookDetails extends TitleDetails {
 
 
 	/**
-	 * <p>Método par establecer el libro en la vista, se mostrarán sus datos por pantalla</p>
+	 * <p>Mï¿½todo par establecer el libro en la vista, se mostrarï¿½n sus datos por pantalla</p>
 	 * @param book Libro que queremos mostrar por pantalla
 	 */
 	public void setEntity(Book book) {
